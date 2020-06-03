@@ -7,7 +7,7 @@ action=$1
 # Path to Android SDK
 export ANDROID_HOME=$HOME/android/sdk
 
-if [ ! -f ./gradlew ]
+if [ ! -x ./gradlew ]
 then
 	gradle wrapper
 fi
