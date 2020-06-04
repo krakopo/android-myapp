@@ -19,6 +19,9 @@ case "$action" in
 	"install")
   		./gradlew installDebug
 		;;
+	"clean")
+  		./gradlew clean
+		;;
 	*)
 		echo "Usage: $0 {build|install}"
 		exit 1
