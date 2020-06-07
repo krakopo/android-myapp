@@ -23,6 +23,6 @@ case "$action" in
   		./gradlew clean
 		;;
 	*)
-		echo "Usage: $0 {build|install}"
+		echo "Usage: $0 {build|install|clean}"
 		exit 1
 esac
